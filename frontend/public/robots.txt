@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://downlode-easy.vercel.app/sitemap.xml
