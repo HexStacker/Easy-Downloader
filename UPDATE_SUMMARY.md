@@ -1,11 +1,12 @@
-# Update Summary: Frontend API Configuration
+# Update Summary: Frontend Railway Integration
 
 **Date:** 2025-12-13
 **Component:** Frontend
 
 ## Changes
-- Updated the frontend API service configuration.
-- Enhanced the reliability of API endpoint connections.
-- Ensured proper environment variable usage for backend communication.
+- Updated `api.js` to use the deployed Railway backend URL (`https://server-partykidunya.up.railway.app/api`) as the default API endpoint.
+- This ensures the local frontend development server connects to the production backend instead of failing on localhost.
 
-This update focuses on stabilizing the connection between the client-side application and the backend services.
+## Impact
+- Resolves `ERR_CONNECTION_REFUSED` errors when trying to download videos from the local frontend.
+- Enables full functionality of the frontend without running a local backend instance.
