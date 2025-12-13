@@ -4,7 +4,7 @@
 **Component:** Frontend
 
 ## Changes
-- Updated `api.js` to use the deployed Railway backend URL (`https://server-partykidunya.up.railway.app/api`) as the default API endpoint.
+- Updated `api.js` to use the deployed Railway backend URL (`https://easy-downloader.up.railway.app/api`) as the default API endpoint.
 - This ensures the local frontend development server connects to the production backend instead of failing on localhost.
 
 ## Impact
